@@ -1,3 +1,11 @@
-#icono{
-    color: #005eff;
+.navbar{
+    background-color: #F3A024 ;
+}
+#home {
+    height: 500px;
+    background-image: url('/img/heart.jpg');
+    background-size: cover; /* o 'contain' según tus necesidades */
+    background-position: center;
+    background-repeat: no-repeat;
+    /* Agrega otras propiedades de estilo según sea necesario */
 }
