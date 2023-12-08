@@ -14,8 +14,8 @@
 }
 #home {
     height: 1100px;
-    background-image: url('img/pharmacy.jpg');
-    background-size: cover; /* o 'contain' según tus necesidades */
+    background-image: url('/img/pharmacy.jpg');
+    background-size:cover; /* o 'contain' según tus necesidades */
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
@@ -31,6 +31,21 @@
     backdrop-filter: blur(20px);
 
 }
-#about{
-    background-color: #F3A024;
+.doc{
+    width: 100px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.doc img{
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+#services{
+    height: 600px;
+    background-image:url('/img/heart.jpg');
+    background-size: cover;
 }
