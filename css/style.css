@@ -13,29 +13,46 @@
     border-radius: 20px;
 }
 #home {
-    height: 1100px;
+    height: 600px;
     background-image: url('/img/pharmacy.jpg');
     background-size:cover; /* o 'contain' según tus necesidades */
     background-position: center;
     background-repeat: no-repeat;
+    position: relative;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
+#home:before {
+	content:'';
+	position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.445);
+}
+#home h1, #home h2{
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+}
+#home h1{
+    font-size: 3em;
+}
+#home h2{
+    font-size: 2em;
+}
 #container-home {
     margin: auto 100px !important;
     font-family: 'Raleway', sans-serif;
     padding: 20px;
     border-radius: 20px;
-    backdrop-filter: blur(20px);
-
 }
 .doc{
+    margin-top: -50px !important;
     width: 100px;
     height: 400px;
-    overflow: hidden;
-    border-radius: 50%;
 }
 .doc img{
     width: 100% !important;
